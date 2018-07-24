@@ -1,0 +1,52 @@
+body{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    width: 40vw;
+    height: 23vh;
+}
+
+input{
+    height: 22px;
+    border-radius: 5px;
+}
+
+button{
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(15, 4, 26);
+    color: white;
+}
+
+article{
+    display: flex;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    background-color: #3c103c4f;
+    width: 50vw;
+    align-items: center;
+    align-content: center;
+    border: ;
+    color: ;
+    flex-direction: column;
+    color: #2e022e;
+    border-radius: 3%;
+    transform: translateY(-100%);
+    transition: 0.5s;
+}
+
+.modal{
+    transform: translateY(0);
+}
